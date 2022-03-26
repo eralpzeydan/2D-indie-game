@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Vector3 lastMoveDirection;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +19,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void HandlerMovement(){
-        float speed = 10f;
+        float speed = 4f;
         float moveX = 0f;
         float moveY = 0f;
+
+        animator.SetFloat("Horizontal",Input.GetAxis("Horizontal"));
 
         if(Input.GetKey(KeyCode.W)){
             moveY = +1f;
