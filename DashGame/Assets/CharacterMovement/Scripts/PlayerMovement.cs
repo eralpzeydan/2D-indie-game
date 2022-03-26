@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void HandlerMovement(){
-        float speed = 4f;
+        float speed = 2f;
         float moveX = 0f;
         float moveY = 0f;
 

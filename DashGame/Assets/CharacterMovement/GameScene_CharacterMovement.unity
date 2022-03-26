@@ -133,8 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 132937857}
   - component: {fileID: 132937856}
-  - component: {fileID: 132937855}
   - component: {fileID: 132937858}
+  - component: {fileID: 132937855}
   m_Layer: 0
   m_Name: FuckingNinja
   m_TagString: Untagged
@@ -152,7 +152,7 @@ Animator:
   m_GameObject: {fileID: 132937854}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1d5f418de09265a4ba6abf015e4a80c7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2f1879804157010479bafa77a15a6058, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -206,7 +206,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.41, y: 0.68}
+  m_Size: {x: 0.42, y: 0.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
